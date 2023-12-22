@@ -1,0 +1,211 @@
+h1{
+    display: none;
+}
+nav{
+       margin: auto;
+       width: 50%;
+       height: 15%;
+       
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap:2em;
+}
+
+nav ul li {
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: .5em;
+    width: 10em;
+    text-align: center;
+}
+
+ nav ul li:hover {
+    background-color: rgba(0, 0, 0, 30%);
+} 
+
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+ nav ul li a:hover{
+    color: #fff;
+ }
+ nav ul li a:visited:hover{
+    color: #fff;
+}
+
+nav ul li a:visited{
+    color: #fff;
+}
+.contenedor-bienvenida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45em;
+    color: #fff;
+}
+
+.titulo-bienvenida1{
+    padding-bottom: 0;
+    margin: 0;
+    text-align: start;
+    font-size: 70px;
+}
+.titulo-bienvenida2{
+    padding-top: 0;
+    margin: 0;
+    text-align: start;
+    font-size: 30px;
+}
+
+.color-de-fondo{
+    background: linear-gradient(100deg, red , blue 100%);
+    min-height: 89vh;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+
+.contenedor-subtitulo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.subtitulo{
+    display: inline-block;
+    margin: auto;
+    font-size: 45px;
+    color: #fff;
+}
+
+.section-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2em;
+    margin-bottom: 30px;
+}
+
+ .tarjeta {
+    width:400px;
+    height: 300px;
+    
+    /*border: 2px solid black;*/
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tarjeta a:visited{
+    color: #fff;
+}
+
+.tarjeta a{
+    font-size: 25px;
+    padding: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.tarjeta img {
+    width: 250px;
+    height: 150px;
+}
+
+.tarjeta p{
+    font-size: 17px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin:0;
+    padding: 0;
+    border-radius: 20px;
+    width: 100%;
+    height: 5em;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 20px;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.contenedor-texto-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    
+}
+.texto-info{
+    width: 75%;
+}
+
+.contenedor-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.ul-formulario{
+    list-style: none;
+}
+
+.li-form{
+    padding-bottom: 5px;
+}
+
+.nombre-form{
+    width: 250px;
+}
+
+.email-form{
+    width: 300px;
+}
+
+.textarea-form{
+    vertical-align: top;
+    resize: none;
+    height: 400px;
+    width: 900px;
+
+    font-size: 15px;
+}
+
+.contenedor-boton-form{
+    display: flex;
+    justify-content: right;
+}
+
+.boton-form{
+    width: 90px;
+    height: 30px;
+}
