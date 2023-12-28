@@ -9,18 +9,35 @@
 </head>
 <body class="color-de-fondo">
     <header>
-        <nav class="nav">
-            <ul class="nav-ul">
-                <li><a href="#">Presentacion</a></li>
-                <li><a href="./mistrabajos.html">Mis trabajos</a></li>
-                <li><a href="./informacion.html">Informacion</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="d-flex flex-row justify-content-md-start justify-content-lg-center aling-items-center nav">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid ">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Presentacion</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Mis trabajos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Informacion</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
     </header>
     <h1>porfolio german zovich web debeloper</h1>
 
-    <div class="contenedor-bienvenida">
+    <div class="contenedor-bienvenida container">
         <div>
             <h2 class="titulo-bienvenida1">Bienvenidos <br></h2>
             <h2 class="titulo-bienvenida2">Yo soy German, Full Stack Developer</h2>    
@@ -31,7 +48,7 @@
         <h2 class="subtitulo">Algunos de mis trabajos</h2>
     </div>
     
-    <section class="section-tarjetas">
+    <section class="section-tarjetas d-flex flex-sm-column flex-column flex-md-row  justify-content-center align-items-center">
             <div class="tarjeta">
                 <a href="./choco-index.html">chocotienda</a>
                 <img src="./recursos/img/ejemplodepag.jpeg">
@@ -54,7 +71,7 @@
 
     </section>
 
-    <footer>
+    <footer class="d-flex flex-sm-column flex-column flex-md-row  justify-content-center align-items-center">
         <p>E-mail: asdasdads@gmail.com</p>
         <p>German Zovich</p>
         <p>Telefono: +54 9 385999999</p>
